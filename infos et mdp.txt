@@ -1,0 +1,27 @@
+Ubuntu Server:
+	id:paravent
+	mdp:paravent1234
+
+MySQL:
+	mdp superuser MySQL:paravent1234
+
+Windows Server:
+	id: Administrateur
+	mdp: Paravent1234
+Compte admin réseau
+	id: Para-Vent
+	mdp:Epsibdx1234
+
+Compte mysql:
+	id:prenom
+	mdp:1234
+
+FTP:
+	serveur:ftp.franceserv.fr
+	identifiant:multiftp-darkmath-paravent
+	mdp:paravent1234
+BDD externe :
+	Nom BDD : acsm_425f040a7a11447
+	Hote: eu-cdbr-azure-west-d.cloudapp.net
+	utilisateur: b6a83e5428779f
+	MDP: f3680d78

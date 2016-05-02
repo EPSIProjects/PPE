@@ -1,0 +1,28 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 14
+VisualStudioVersion = 14.0.25123.0
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Para_Vent", "Para_Vent\Para_Vent.csproj", "{0DD7451B-500D-4C42-B0BC-69241E634223}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Para_Vent - TestUnitaire", "Para_Vent - TestUnitaire\Para_Vent - TestUnitaire.csproj", "{F4719E16-C65D-4C33-9707-D1137D05D349}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0DD7451B-500D-4C42-B0BC-69241E634223}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0DD7451B-500D-4C42-B0BC-69241E634223}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0DD7451B-500D-4C42-B0BC-69241E634223}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0DD7451B-500D-4C42-B0BC-69241E634223}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4719E16-C65D-4C33-9707-D1137D05D349}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4719E16-C65D-4C33-9707-D1137D05D349}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4719E16-C65D-4C33-9707-D1137D05D349}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4719E16-C65D-4C33-9707-D1137D05D349}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<?PowerDesigner signature="Workspace" version="15.1.0.2850"?>
+<!-- Veuillez ne pas modifier ce fichier -->
+
+<Workspace>
+	<Local Expanded="Yes">
+		<Model Expanded="Yes" ID="{1A5747EC-1192-4750-9650-C3F636AFAFE8}" Name="MCD_Para_Vent_Lourd" Type="{1E597170-9350-11D1-AB3C-0020AF71E433}" URL="MCD_Para_Vent_Lourd.mcd"/>
+	</Local>
+	<BrowserModule Name="Référentiel"/>
+</Workspace>

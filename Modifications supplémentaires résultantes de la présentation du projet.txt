@@ -1,0 +1,7 @@
+LE CDC PERSONNEL:
+	-Enlever le nom des autres du groupe (en faisant un copie avant)
+	-Remplir la demande personnelle
+	-Entouré la partie de la MCD utilisée personnellement
+
+-Mettre l'application sous VM
+-Pour le BTS lancer le .exe (pas avec visual)

@@ -1,0 +1,44 @@
+.logo img{
+  margin-top: -12px;
+  border-radius: 50px;
+}
+.navbar{
+  font-size: 19px;
+  padding: 1%;
+}
+.navbar-nav{
+  padding-left: 1%;
+}
+.marketing{
+  height: 100%;
+  padding-top: 25%;
+  margin-top: -24%;
+  margin-bottom: -20%;
+  background-color: rgba(255, 255, 255, 0.8);
+}
+.featurette img{
+  border-radius: 10px;
+}
+body{
+  background-image: url(../images/fond.jpg);
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100% 100%;
+}
+.pull-right{
+  text-decoration: none;
+  padding: 0.4%;
+  border-radius: 10px;
+  background-color: rgba(193, 193, 193, 0.8);
+}
+.pull-right:hover{
+  background-color: rgba(165, 165, 165, 0.8);
+}
+.pull-right a{
+  text-decoration: none;
+  color: white;
+}
+.pull-right a:hover{
+  text-decoration: none;
+  color: white;
+}

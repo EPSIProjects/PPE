@@ -7,6 +7,9 @@ namespace Para_Vent___TestUnitaire
     [TestClass]
     public class TestUnitaire
     {
+        /// <summary>
+        /// Retourne vrai quand le stock d'un produit est vide
+        /// </summary>
         [TestMethod]
         public void QuandLeStockDunProduitEstEpuise()
         {
@@ -17,6 +20,9 @@ namespace Para_Vent___TestUnitaire
             Assert.IsTrue(p.StockVide());
         }
 
+        /// <summary>
+        /// Retourne vrai quand une formation est passée
+        /// </summary>
         [TestMethod]
         public void QuandUneFormationEstPassee()
         {

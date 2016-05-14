@@ -53,6 +53,12 @@
     <Compile Include="TestUnitaire.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\Para_Vent\Para_Vent.csproj">
+      <Project>{0dd7451b-500d-4c42-b0bc-69241e634223}</Project>
+      <Name>Para_Vent</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Choose>
     <When Condition="'$(VisualStudioVersion)' == '10.0' And '$(IsCodedUITest)' == 'True'">
       <ItemGroup>

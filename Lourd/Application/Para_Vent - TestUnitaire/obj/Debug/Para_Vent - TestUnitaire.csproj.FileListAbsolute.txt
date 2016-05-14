@@ -8,3 +8,13 @@ D:\Program Files\wamp\www\PPE\Lourd\Application\Para_Vent - TestUnitaire\bin\Deb
 D:\Program Files\wamp\www\PPE\Lourd\Application\Para_Vent - TestUnitaire\obj\Debug\Para_Vent - TestUnitaire.csprojResolveAssemblyReference.cache
 D:\Program Files\wamp\www\PPE\Lourd\Application\Para_Vent - TestUnitaire\obj\Debug\Para_Vent - TestUnitaire.dll
 D:\Program Files\wamp\www\PPE\Lourd\Application\Para_Vent - TestUnitaire\obj\Debug\Para_Vent - TestUnitaire.pdb
+C:\wamp\www\PPE\Lourd\Application\Para_Vent - TestUnitaire\bin\Debug\Para_Vent - TestUnitaire.dll
+C:\wamp\www\PPE\Lourd\Application\Para_Vent - TestUnitaire\bin\Debug\Para_Vent - TestUnitaire.pdb
+C:\wamp\www\PPE\Lourd\Application\Para_Vent - TestUnitaire\bin\Debug\Microsoft.VisualStudio.QualityTools.UnitTestFramework.dll
+C:\wamp\www\PPE\Lourd\Application\Para_Vent - TestUnitaire\bin\Debug\Para_Vent.exe
+C:\wamp\www\PPE\Lourd\Application\Para_Vent - TestUnitaire\bin\Debug\MySql.Data.dll
+C:\wamp\www\PPE\Lourd\Application\Para_Vent - TestUnitaire\bin\Debug\Para_Vent.pdb
+C:\wamp\www\PPE\Lourd\Application\Para_Vent - TestUnitaire\bin\Debug\fr\Microsoft.VisualStudio.QualityTools.UnitTestFramework.resources.dll
+C:\wamp\www\PPE\Lourd\Application\Para_Vent - TestUnitaire\obj\Debug\Para_Vent - TestUnitaire.csprojResolveAssemblyReference.cache
+C:\wamp\www\PPE\Lourd\Application\Para_Vent - TestUnitaire\obj\Debug\Para_Vent - TestUnitaire.dll
+C:\wamp\www\PPE\Lourd\Application\Para_Vent - TestUnitaire\obj\Debug\Para_Vent - TestUnitaire.pdb

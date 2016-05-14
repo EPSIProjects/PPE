@@ -52,7 +52,7 @@
       <hr class="featurette-divider">
       <div class="row featurette">
         <div class="col-md-7">
-          <h2 class="featurette-heading">En quête de sensations fortes ? <span class="text-muted">Testez la combinaison de wingsuit.</span></h2>
+          <h2 class="featurette-heading">Vous voulez des sensations fortes ? <span class="text-muted">Testez la combinaison wingsuit.</span></h2>
           <p class="lead">Vous avez le goût du risque et vous voulez aller plus loin ? Pas de problème, nous sommes là pour vous guider vers de nouvelles hauteurs.</p>
         </div>
         <div class="col-md-5">

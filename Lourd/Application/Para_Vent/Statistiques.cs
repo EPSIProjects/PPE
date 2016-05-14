@@ -23,5 +23,30 @@ namespace Para_Vent
             Accueil afficher = new Accueil();
             afficher.Show();
         }
+
+        private void Statistiques_Load(object sender, EventArgs e)
+        {
+            this.listView1.BackgroundImage = Para_Vent.Properties.Resources.graph1;
+        }
+
+        private void listView4_Enter(object sender, EventArgs e)
+        {
+            this.listView1.BackgroundImage = Para_Vent.Properties.Resources.graph3;
+        }
+
+        private void listView3_Enter(object sender, EventArgs e)
+        {
+            this.listView1.BackgroundImage = Para_Vent.Properties.Resources.graph2;
+        }
+
+        private void listView2_Enter(object sender, EventArgs e)
+        {
+            this.listView1.BackgroundImage = Para_Vent.Properties.Resources.graph1;
+        }
+
+        private void listView1_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

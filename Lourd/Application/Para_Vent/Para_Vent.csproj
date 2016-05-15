@@ -187,15 +187,6 @@
     <WCFMetadata Include="Service References\" />
   </ItemGroup>
   <ItemGroup>
-    <None Include="Resources\Nombre_formation_en_Fonction_Mois.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\Part _ type_formations_par_mois_ Bordeaux_2015.png" />
-  </ItemGroup>
-  <ItemGroup>
-    <None Include="Resources\revenus_formations.png" />
-  </ItemGroup>
-  <ItemGroup>
     <None Include="Resources\mini1.png" />
   </ItemGroup>
   <ItemGroup>

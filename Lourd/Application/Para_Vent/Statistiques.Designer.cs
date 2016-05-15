@@ -109,7 +109,7 @@
             this.Icon = ((System.Drawing.Icon)(resources.GetObject("$this.Icon")));
             this.Name = "Statistiques";
             this.StartPosition = System.Windows.Forms.FormStartPosition.CenterScreen;
-            this.Text = "Formations";
+            this.Text = "Statistiques";
             this.Load += new System.EventHandler(this.Statistiques_Load);
             this.ResumeLayout(false);
             this.PerformLayout();

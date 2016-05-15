@@ -19,7 +19,7 @@ namespace Para_Vent
         }
         public void Open() //ouverture connexion
         {
-            string connectionString = "server=62.4.19.120; database=darkmath_db2; uid=darkmath; pwd=17Eddy1996";
+            string connectionString = "server=localhost; database=para-vent; uid=root; pwd=";
             this.connection = new MySqlConnection(connectionString);
         }
         private void Form1_Load(object sender, EventArgs e){

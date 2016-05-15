@@ -46,3 +46,6 @@ body{
   width: 33%;
   text-align: center;
 }
+.tab-content>div>button{
+  margin-left: 45%;
+}

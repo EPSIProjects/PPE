@@ -36,11 +36,11 @@
                 <li class="dropdown">
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Formations <span class="caret"></span></a>
                   <ul class="dropdown-menu">
-                    <li><a href="http://para-vent.franceserv.com/parachute/">Parachute</a></li>
+                    <li><a href="http://para-vent.franceserv.com/formations/?id=1">Parachute</a></li>
                     <li role="separator" class="divider"></li>
-                    <li><a href="http://para-vent.franceserv.com/parapente/">Parapente</a></li>
+                    <li><a href="http://para-vent.franceserv.com/formations/?id=2">Parapente</a></li>
                     <li role="separator" class="divider"></li>
-                    <li><a href="http://para-vent.franceserv.com/wingsuit/">Wingsuit</a></li>
+                    <li><a href="http://para-vent.franceserv.com/formations/?id=3">Wingsuit</a></li>
                   </ul>
                 </li>
                 <li id="equipements"><a href="http://para-vent.franceserv.com/equipements/">Équipements</a></li>

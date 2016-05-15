@@ -60,3 +60,4 @@ C:\wamp\www\PPE\Lourd\Application\Para_Vent\obj\Debug\Para_Vent.Personnel.resour
 C:\wamp\www\PPE\Lourd\Application\Para_Vent\obj\Debug\Para_Vent.Produits.resources
 C:\wamp\www\PPE\Lourd\Application\Para_Vent\obj\Debug\Para_Vent.Properties.Resources.resources
 C:\wamp\www\PPE\Lourd\Application\Para_Vent\obj\Debug\Para_Vent.csproj.GenerateResource.Cache
+D:\Program Files\wamp\www\PPE\Lourd\Application\Para_Vent\obj\Debug\Para_Vent.g.resources

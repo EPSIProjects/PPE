@@ -19,14 +19,18 @@ namespace Para_Vent
 
         private void label2_Click(object sender, EventArgs e)
         {
-            this.Hide();
+            
             Accueil afficher = new Accueil();
             afficher.Show();
+            this.Hide();
         }
 
         private void Statistiques_Load(object sender, EventArgs e)
         {
             this.listView1.BackgroundImage = Para_Vent.Properties.Resources.graph1;
+            this.listView2.BackgroundImage = Para_Vent.Properties.Resources.mini1;
+            this.listView3.BackgroundImage = Para_Vent.Properties.Resources.mini2;
+            this.listView4.BackgroundImage = Para_Vent.Properties.Resources.mini3;
         }
 
         private void listView4_Enter(object sender, EventArgs e)
@@ -42,6 +46,7 @@ namespace Para_Vent
         private void listView2_Enter(object sender, EventArgs e)
         {
             this.listView1.BackgroundImage = Para_Vent.Properties.Resources.graph1;
+
         }
 
         private void listView1_SelectedIndexChanged(object sender, EventArgs e)
@@ -50,6 +55,16 @@ namespace Para_Vent
         }
 
         private void listView2_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void listView4_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
+
+        private void listView3_SelectedIndexChanged(object sender, EventArgs e)
         {
 
         }

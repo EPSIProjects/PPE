@@ -37,7 +37,7 @@ namespace Para_Vent
         /// </summary>
         public void Open() //ouverture connexion
         {
-            string connectionString = "SERVER=localhost; DATABASE=para-vent; UID=root; PASSWORD=";
+            string connectionString = "server=sql.franceserv.fr; database=darkmath_db2; uid=paravent; pwd=paravent1234";
             this.connection = new MySqlConnection(connectionString);
         }
 
@@ -202,9 +202,10 @@ namespace Para_Vent
         /// <param name="e"></param>
         private void label1_Click_3(object sender, EventArgs e)
         {
-            this.Hide();
+            
             Accueil afficher = new Accueil();
             afficher.Show();
+            this.Hide();
         }
 
         private void textBox1_TextChanged(object sender, EventArgs e)
@@ -224,9 +225,10 @@ namespace Para_Vent
         /// <param name="e"></param>
         private void button3_Click(object sender, EventArgs e)
         {
-            this.Hide();
+            
             AjouterPersonnel afficher = new AjouterPersonnel();
             afficher.Show();
+            this.Hide();
         }
 
         /// <summary>
@@ -238,9 +240,10 @@ namespace Para_Vent
         private void button4_Click(object sender, EventArgs e)
         {
             PassingID = listView1.SelectedItems[0].SubItems[5].Text;
-            this.Hide();
+            
             ModifierPersonnel afficher = new ModifierPersonnel();
             afficher.Show();
+            this.Hide();
         }
 
         /// <summary>
@@ -268,9 +271,10 @@ namespace Para_Vent
             {
                 MessageBox.Show("Erreur de connexion à la base de donnée");
             }
-            this.Hide();
+            
             Personnel afficher = new Personnel();
             afficher.Show();
+            this.Hide();
         }
 
         /// <summary>
@@ -299,9 +303,10 @@ namespace Para_Vent
                 MessageBox.Show("Erreur de connexion à la base de donnée");
             }
 
-            this.Hide();
+            
             Personnel afficher = new Personnel();
             afficher.Show();
+            this.Hide();
         }
 
         public void textBox_id_TextChanged(object sender, EventArgs e)

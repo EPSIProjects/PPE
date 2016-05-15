@@ -52,29 +52,28 @@
             // 
             // listView4
             // 
-            this.listView4.BackgroundImage = global::Para_Vent.Properties.Resources.mini3;
             this.listView4.Cursor = System.Windows.Forms.Cursors.Hand;
             this.listView4.Location = new System.Drawing.Point(482, 22);
             this.listView4.Name = "listView4";
             this.listView4.Size = new System.Drawing.Size(109, 67);
             this.listView4.TabIndex = 15;
             this.listView4.UseCompatibleStateImageBehavior = false;
+            this.listView4.SelectedIndexChanged += new System.EventHandler(this.listView4_SelectedIndexChanged);
             this.listView4.Enter += new System.EventHandler(this.listView4_Enter);
             // 
             // listView3
             // 
-            this.listView3.BackgroundImage = global::Para_Vent.Properties.Resources.mini2;
             this.listView3.Cursor = System.Windows.Forms.Cursors.Hand;
             this.listView3.Location = new System.Drawing.Point(343, 22);
             this.listView3.Name = "listView3";
             this.listView3.Size = new System.Drawing.Size(112, 67);
             this.listView3.TabIndex = 14;
             this.listView3.UseCompatibleStateImageBehavior = false;
+            this.listView3.SelectedIndexChanged += new System.EventHandler(this.listView3_SelectedIndexChanged);
             this.listView3.Enter += new System.EventHandler(this.listView3_Enter);
             // 
             // listView2
             // 
-            this.listView2.BackgroundImage = global::Para_Vent.Properties.Resources.mini1;
             this.listView2.Cursor = System.Windows.Forms.Cursors.Hand;
             this.listView2.Location = new System.Drawing.Point(206, 22);
             this.listView2.Name = "listView2";

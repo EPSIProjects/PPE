@@ -53,15 +53,16 @@ namespace Para_Vent
         /// </summary>
         public void Open()
         {
-            string connectionString = "SERVER=paravent127@gmail.com; DATABASE=u974738375_para; UID=u974738375_para; PASSWORD=BTSPPE@127";
+            string connectionString = "server=sql.franceserv.fr; database=darkmath_db2; uid=paravent; pwd=paravent1234";
             this.connection = new MySqlConnection(connectionString);
         }
 
         private void label2_Click(object sender, EventArgs e)
         {
-            this.Hide();
+            
             Accueil afficher = new Accueil();
             afficher.Show();
+            this.Hide();
         }
 
         private void listView1_SelectedIndexChanged(object sender, EventArgs e)
@@ -105,9 +106,10 @@ namespace Para_Vent
                 MessageBox.Show("Erreur de connexion à la base de donnée");
             }
 
-            this.Hide();
+            
             Formations afficher = new Formations();
             afficher.Show();
+            this.Hide();
         }
 
         /// <summary>
@@ -117,9 +119,10 @@ namespace Para_Vent
         /// <param name="e"></param>
         private void button1_Click(object sender, EventArgs e)
         {
-            this.Hide();
+            
             AjouterFormation afficher = new AjouterFormation();
             afficher.Show();
+            this.Hide();
         }
 
         /// <summary>
@@ -130,9 +133,10 @@ namespace Para_Vent
         private void button3_Click(object sender, EventArgs e)
         {
             modifForm = listView1.SelectedItems[0].SubItems[0].Text;
-            this.Hide();
+            
             ModifierFormation afficher = new ModifierFormation();
             afficher.Show();
+            this.Hide();
         }
     }
 }

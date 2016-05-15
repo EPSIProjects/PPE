@@ -24,30 +24,34 @@ namespace Para_Vent
 
         private void button1_Click(object sender, EventArgs e)
         {
-            this.Hide();
+            
             Personnel afficher = new Personnel();
             afficher.Show();
+            this.Hide();
         }
         
         private void button2_Click(object sender, EventArgs e)
         {
-            this.Hide();
+            
             Produits afficher = new Produits();
             afficher.Show();
+            this.Hide();
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-            this.Hide();
+
             Formations afficher = new Formations();
             afficher.Show();
+            this.Hide();
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
-            this.Hide();
+
             Statistiques afficher = new Statistiques();
             afficher.Show();
+            this.Hide();
         }
 
         private void button5_Click(object sender, EventArgs e)

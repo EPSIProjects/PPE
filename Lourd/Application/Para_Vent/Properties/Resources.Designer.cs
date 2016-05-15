@@ -119,35 +119,5 @@ namespace Para_Vent.Properties {
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
-        
-        /// <summary>
-        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap Nombre_formation_en_Fonction_Mois {
-            get {
-                object obj = ResourceManager.GetObject("Nombre_formation_en_Fonction_Mois", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap Part___type_formations_par_mois__Bordeaux_2015 {
-            get {
-                object obj = ResourceManager.GetObject("Part _ type_formations_par_mois_ Bordeaux_2015", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
-        
-        /// <summary>
-        ///   Recherche une ressource localisée de type System.Drawing.Bitmap.
-        /// </summary>
-        internal static System.Drawing.Bitmap revenus_formations {
-            get {
-                object obj = ResourceManager.GetObject("revenus_formations", resourceCulture);
-                return ((System.Drawing.Bitmap)(obj));
-            }
-        }
     }
 }

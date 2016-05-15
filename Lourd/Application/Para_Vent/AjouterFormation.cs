@@ -124,7 +124,7 @@ namespace Para_Vent
 
         public void Open()
         {
-            string connectionString = "SERVER=paravent127@gmail.com; DATABASE=u974738375_para; UID=u974738375_para; PASSWORD=BTSPPE@127";
+            string connectionString = "server=sql.franceserv.fr; database=darkmath_db2; uid=paravent; pwd=paravent1234";
             this.connection = new MySqlConnection(connectionString);
         }
 
@@ -199,23 +199,26 @@ namespace Para_Vent
                 MessageBox.Show("Erreur de connexion à la base de donnée");
             }
 
-            this.Hide();
+            
             Formations afficher = new Formations();
             afficher.Show();
+            this.Hide();
         }
 
         private void button1_Click(object sender, EventArgs e)
         {
-            this.Hide();
+            
             Produits afficher = new Produits();
             afficher.Show();
+            this.Hide();
         }
 
         private void label2_Click(object sender, EventArgs e)
         {
-            this.Hide();
+            
             Formations afficher = new Formations();
             afficher.Show();
+            this.Hide();
         }
 
         private void comboBox1_client_SelectedIndexChanged(object sender, EventArgs e) // client

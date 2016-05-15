@@ -84,15 +84,16 @@ namespace Para_Vent
         }
         public void Open() //ouverture connexion
         {
-            string connectionString = "SERVER=paravent127@gmail.com; DATABASE=u974738375_para; UID=u974738375_para; PASSWORD=BTSPPE@127";
+            string connectionString = "server=sql.franceserv.fr; database=darkmath_db2; uid=paravent; pwd=paravent1234";
             this.connection = new MySqlConnection(connectionString);
         }
 
         private void label1_Click(object sender, EventArgs e)
         {
-            this.Hide();
+            
             Personnel afficher = new Personnel();
             afficher.Show();
+            this.Hide();
         }
         private void titre_Click(object sender, EventArgs e)
         {
@@ -156,9 +157,10 @@ namespace Para_Vent
             {
                 MessageBox.Show("Erreur de connexion à la base de donnée");
             }
-            this.Hide();
+            
             Personnel afficher = new Personnel();
             afficher.Show();
+            this.Hide();
 
 
         }

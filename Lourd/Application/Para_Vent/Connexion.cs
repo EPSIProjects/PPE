@@ -19,7 +19,7 @@ namespace Para_Vent
         }
         public void Open() //ouverture connexion
         {
-            string connectionString = "server=localhost; database=para-vent; uid=root; pwd=";
+            string connectionString = "server=sql.franceserv.fr; database=darkmath_db2; uid=paravent; pwd=paravent1234";
             this.connection = new MySqlConnection(connectionString);
         }
         private void Form1_Load(object sender, EventArgs e){
@@ -63,9 +63,10 @@ namespace Para_Vent
 
                 //Verrification des identifiants
                 if (mdpbdd==mdp.Text){
-                    this.Hide();
+                    
                     Accueil afficher = new Accueil();
                     afficher.Show();
+                    this.Hide();
                 }
                 else{
                     MessageBox.Show("Erreur de saisie!");

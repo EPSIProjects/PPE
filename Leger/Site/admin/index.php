@@ -1,11 +1,11 @@
 <?php $title="Acceuil"; ?>
 <?php include '../header.php'; ?>
 
- <form class="form-horizontal" role="form">
+ <form class="form-horizontal" role="form" method="POST" action="http://www.para-vent.franceserv.com/admin/traitement.php">
   <div class="form-group">
-    <label class="control-label col-sm-2" for="email">Identifiant :</label>
+    <label class="control-label col-sm-2" for="text">Identifiant :</label>
     <div class="col-sm-10">
-      <input type="email" class="form-control" id="email" placeholder="Entrer votre identifiant">
+      <input type="text" class="form-control" id="text" placeholder="Entrer votre identifiant">
     </div>
   </div>
   <div class="form-group">

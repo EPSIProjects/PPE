@@ -10,19 +10,19 @@
           <img class="img-circle" src="http://para-vent.franceserv.com/images/chute.jpg" alt="Generic placeholder image" width="140" height="140">
           <h2>Parachute</h2>
           <p>Vous souhaitez apprendre à faire du parachute, ou juste vous amuser ? Nous proposons des formations ou des simples sauts.</p>
-          <p><a class="btn btn-default" href="http://para-vent.franceserv.com/parachute/" role="button">Plus d'informations &raquo;</a></p>
+          <p><a class="btn btn-default" href="http://para-vent.franceserv.com/formations/?id=1" role="button">Plus d'informations &raquo;</a></p>
         </div>
         <div class="col-lg-4">
           <img class="img-circle" src="http://para-vent.franceserv.com/images/pente.jpg" alt="Generic placeholder image" width="140" height="140">
           <h2>Parapente</h2>
           <p> Vous aimez les pentes ? Alors venez faire du parapente !</p>
-          <p><a class="btn btn-default" href="http://para-vent.franceserv.com/parapente/" role="button">Plus d'informations &raquo;</a></p>
+          <p><a class="btn btn-default" href="http://para-vent.franceserv.com/formations/?id=2" role="button">Plus d'informations &raquo;</a></p>
         </div>
         <div class="col-lg-4">
           <img class="img-circle" src="http://para-vent.franceserv.com/images/suit.jpg" alt="Generic placeholder image" width="140" height="140">
           <h2>Wingsuit</h2>
           <p>Venez prendre un bain d'air frais avec le Wingsuit. Sensations fortes garanties.</p>
-          <p><a class="btn btn-default" href="http://para-vent.franceserv.com/wingsuit/" role="button">Plus d'informations &raquo;</a></p>
+          <p><a class="btn btn-default" href="http://para-vent.franceserv.com/formations/?id=3" role="button">Plus d'informations &raquo;</a></p>
         </div>
       </div>
 

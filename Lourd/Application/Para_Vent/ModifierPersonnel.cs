@@ -84,7 +84,7 @@ namespace Para_Vent
         }
         public void Open() //ouverture connexion
         {
-            string connectionString = "SERVER=127.0.0.1; DATABASE=para-vent; UID=root; PASSWORD=";
+            string connectionString = "SERVER=paravent127@gmail.com; DATABASE=u974738375_para; UID=u974738375_para; PASSWORD=BTSPPE@127";
             this.connection = new MySqlConnection(connectionString);
         }
 

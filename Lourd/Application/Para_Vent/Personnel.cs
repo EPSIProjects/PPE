@@ -37,7 +37,7 @@ namespace Para_Vent
         /// </summary>
         public void Open() //ouverture connexion
         {
-            string connectionString = "SERVER=127.0.0.1; DATABASE=para-vent; UID=root; PASSWORD=";
+            string connectionString = "SERVER=localhost; DATABASE=para-vent; UID=root; PASSWORD=";
             this.connection = new MySqlConnection(connectionString);
         }
 

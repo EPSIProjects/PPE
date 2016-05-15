@@ -8,6 +8,7 @@ MySQL:
 Windows Server:
 	id: Administrateur
 	mdp: Paravent1234
+
 Compte admin réseau
 	id: Para-Vent
 	mdp:Epsibdx1234
@@ -20,7 +21,33 @@ FTP:
 	serveur:ftp.franceserv.fr
 	identifiant:multiftp-darkmath-paravent
 	mdp:paravent1234
-BDD externe :
+
+Mysql Franceserv :
+	id: paravent
+	mdp: paravent1234
+	bdd: darkmath_db2
+	serveur:  sql.franceserv.fr
+
+
+
+
+
+
+
+
+
+Mail :
+Adresse mail pour Hostinger
+Gmail.com
+
+Nom : MarBenNic
+
+Mail : paravent127@gmail.com
+
+mdp : BTSPPE@127
+
+
+Ancien BDD externe :
 	Nom BDD : acsm_425f040a7a11447
 	Hote: eu-cdbr-azure-west-d.cloudapp.net
 	utilisateur: b6a83e5428779f

@@ -1,5 +1,5 @@
 <?php $title="Réserver une formation"; ?>
-<?php include '../header.php'; ?>
+<?php include '../../header.php'; ?>
 
  <form method="POST" action="http://para-vent.franceserv.com/formations/reserver/envoi.php" name="monform">
   <div class="form-group">
@@ -18,4 +18,4 @@
   <button type="submit" class="btn btn-default">Envoyer</button>&nbsp;<button type="reset" class="btn btn-default">Effacer</button>
   </div>
 </form>
-<?php include '../footer.php'; ?>
+<?php include '../../footer.php'; ?>

@@ -11,17 +11,23 @@
   <div id="parachute" class="tab-pane fade">
     <h3>Parachute</h3>
     <p>Some content.</p>
-    <button type="button" class="btn btn-warning">Réserver</button>
+    <form action="http://para-vent.franceserv.com/formations/reserver/">
+    <button type="submit" class="btn btn-warning">Réserver</button>
+    </form>
   </div>
   <div id="parapente" class="tab-pane fade">
     <h3>Parapente</h3>
     <p>Some content in menu 1.</p>
-    <button type="button" class="btn btn-success">Réserver</button>
+    <form action="http://para-vent.franceserv.com/formations/reserver/">
+    <button type="submit" class="btn btn-success">Réserver</button>
+    </form>
   </div>
   <div id="wingsuit" class="tab-pane fade">
     <h3>Wingsuit</h3>
     <p>Some content in menu 2.</p>
-    <button type="button" class="btn btn-info">Réserver</button>
+    <form action="http://para-vent.franceserv.com/formations/reserver/">
+    <button type="submit" class="btn btn-info">Réserver</button>
+    </form>
   </div>
 </div>
 <?php 

@@ -36,20 +36,11 @@
                 <li class="dropdown">
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Formations <span class="caret"></span></a>
                   <ul class="dropdown-menu">
-                    <li class="dropdown-header">Parachute</li>
-                    <li><a href="#">Découverte</a></li>
-                    <li><a href="#">Amateur</a></li>
-                    <li><a href="#">Aguerri</a></li>
+                    <li><a href="http://para-vent.franceserv.com/docs/parachute/">Parachute</a></li>
                     <li role="separator" class="divider"></li>
-                    <li class="dropdown-header">Parapente</li>
-                    <li><a href="#">Découverte</a></li>
-                    <li><a href="#">Amateur</a></li>
-                    <li><a href="#">Aguerri</a></li>
+                    <li><a href="http://para-vent.franceserv.com/docs/parapente/">Parapente</a></li>
                     <li role="separator" class="divider"></li>
-                    <li class="dropdown-header">Wingsuit</li>
-                    <li><a href="#">Découverte</a></li>
-                    <li><a href="#">Amateur</a></li>
-                    <li><a href="#">Aguerri</a></li>
+                    <li><a href="http://para-vent.franceserv.com/docs/wingsuit/">Wingsuit</a></li>
                   </ul>
                 </li>
                 <li id="equipements"><a href="http://para-vent.franceserv.com/docs/equipements/">Équipements</a></li>

@@ -1,5 +1,5 @@
       <!-- Footer -->
-     
+     <br>
       <footer>
         <p>&copy; 2016 Para-vent. &middot; <a href="http://para-vent.franceserv.com/mentions-legales/">Mentions légale</a> &middot; <a href="http://para-vent.franceserv.com/terms/">Conditions d'utilisation</a></p>
         <br>

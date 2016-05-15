@@ -26,26 +26,26 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              <a class="logo navbar-brand" href="http://para-vent.franceserv.com/docs/"><img src="http://para-vent.franceserv.com/images/logo-parapente.png" height="50" width="53"/></a>
-              <a class="navbar-brand" href="http://para-vent.franceserv.com/docs/">Para-Vent</a>
+              <a class="logo navbar-brand" href="http://para-vent.franceserv.com"><img src="http://para-vent.franceserv.com/images/logo-parapente.png" height="50" width="53"/></a>
+              <a class="navbar-brand" href="http://para-vent.franceserv.com">Para-Vent</a>
             </div>
             <div id="navbar" class="navbar-collapse collapse">
               <ul class="nav navbar-nav">
-                <li id="accueil"><a href="http://para-vent.franceserv.com/docs/">Accueil</a></li>
+                <li id="accueil"><a href="http://para-vent.franceserv.com">Accueil</a></li>
 
                 <li class="dropdown">
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Formations <span class="caret"></span></a>
                   <ul class="dropdown-menu">
-                    <li><a href="http://para-vent.franceserv.com/docs/parachute/">Parachute</a></li>
+                    <li><a href="http://para-vent.franceserv.com/parachute/">Parachute</a></li>
                     <li role="separator" class="divider"></li>
-                    <li><a href="http://para-vent.franceserv.com/docs/parapente/">Parapente</a></li>
+                    <li><a href="http://para-vent.franceserv.com/parapente/">Parapente</a></li>
                     <li role="separator" class="divider"></li>
-                    <li><a href="http://para-vent.franceserv.com/docs/wingsuit/">Wingsuit</a></li>
+                    <li><a href="http://para-vent.franceserv.com/wingsuit/">Wingsuit</a></li>
                   </ul>
                 </li>
-                <li id="equipements"><a href="http://para-vent.franceserv.com/docs/equipements/">Équipements</a></li>
-                <li id="a-propos"><a href="http://para-vent.franceserv.com/docs/a-propos/">À propos</a></li>
-                <li id="contact"><a href="http://para-vent.franceserv.com/docs/nous-contacter/">Contact</a></li>
+                <li id="equipements"><a href="http://para-vent.franceserv.com/equipements/">Équipements</a></li>
+                <li id="a-propos"><a href="http://para-vent.franceserv.com/a-propos/">À propos</a></li>
+                <li id="contact"><a href="http://para-vent.franceserv.com/nous-contacter/">Contact</a></li>
               </ul>
             </div>
           </div>
@@ -69,7 +69,7 @@
             <div class="carousel-caption">
               <h1>Toute l'année !</h1>
               <p>Profitez de nos 5 centre de formations réparti dans toute la France pour faire un vol quand vous le souhaitez.</p>
-              <p><a class="btn btn-lg btn-primary" href="" role="button">Réserver un vol</a></p>
+              <p><a class="btn btn-lg btn-primary" href="http://para-vent.franceserv.com/parachute/" role="button">Réserver un vol</a></p>
             </div>
           </div>
         </div>
@@ -79,7 +79,7 @@
             <div class="carousel-caption">
               <h1>Une formation personnelle.</h1>
               <p>Nos formateurs vous accompagnent et vous apprennent à vous servir du matériel.</p>
-              <p><a class="btn btn-lg btn-primary" href="#" role="button">En savoir plus</a></p>
+              <p><a class="btn btn-lg btn-primary" href="http://para-vent.franceserv.com/parachute/" role="button">En savoir plus</a></p>
             </div>
           </div>
         </div>
@@ -89,7 +89,7 @@
             <div class="carousel-caption">
               <h1>Un simple saut ?</h1>
               <p>Si vous ne souhaitez pas suivre une formation, vous pouvez aussi profiter de l’option "saut touristique" pour un bol de plein air.</p>
-              <p><a class="btn btn-lg btn-primary" href="#" role="button">Réserver maintenant</a></p>
+              <p><a class="btn btn-lg btn-primary" href="http://para-vent.franceserv.com/parachute/" role="button">Réserver maintenant</a></p>
             </div>
           </div>
         </div>

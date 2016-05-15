@@ -42,3 +42,7 @@ body{
   text-decoration: none;
   color: white;
 }
+.section li{
+  width: 33%;
+  text-align: center;
+}

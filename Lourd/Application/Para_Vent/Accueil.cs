@@ -28,6 +28,7 @@ namespace Para_Vent
             Personnel afficher = new Personnel();
             afficher.Show();
             this.Hide();
+
         }
         
         private void button2_Click(object sender, EventArgs e)

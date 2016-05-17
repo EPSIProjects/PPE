@@ -5,13 +5,13 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     <meta name="description" content="Site vitrine appartenant à Para-vent, dans le but de présenter ces produits et services.">
-    <link rel="icon" href="http://para-vent.franceserv.com/images/logo-parapente.ico">
+    <link rel="icon" href="../images/logo-parapente.ico">
 
     <title><?PHP echo $title; ?> - Paravent</title>
 
-    <link href="http://para-vent.franceserv.com/css/bootstrap.min.css" rel="stylesheet">
-    <link href="http://para-vent.franceserv.com/css/carousel.css" rel="stylesheet">
-    <link href="http://para-vent.franceserv.com/css/style.css" rel="stylesheet">
+    <link href="../css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/carousel.css" rel="stylesheet">
+    <link href="../css/style.css" rel="stylesheet">
   </head>
 <!-- Barre de navigation -->
   <body>
@@ -26,7 +26,7 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              <a class="logo navbar-brand" href="http://para-vent.franceserv.com"><img src="http://para-vent.franceserv.com/images/logo-parapente.png" height="50" width="53"/></a>
+              <a class="logo navbar-brand" href="http://para-vent.franceserv.com"><img src="../images/logo-parapente.png" height="50" width="53"/></a>
               <a class="navbar-brand" href="http://para-vent.franceserv.com">Para-Vent</a>
             </div>
             <div id="navbar" class="navbar-collapse collapse">
@@ -36,16 +36,16 @@
                 <li class="dropdown">
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Formations <span class="caret"></span></a>
                   <ul class="dropdown-menu">
-                    <li><a href="http://para-vent.franceserv.com/formations/?id=1">Parachute</a></li>
+                    <li><a href="../formations/?id=1">Parachute</a></li>
                     <li role="separator" class="divider"></li>
-                    <li><a href="http://para-vent.franceserv.com/formations/?id=2">Parapente</a></li>
+                    <li><a href="../formations/?id=2">Parapente</a></li>
                     <li role="separator" class="divider"></li>
-                    <li><a href="http://para-vent.franceserv.com/formations/?id=3">Wingsuit</a></li>
+                    <li><a href="../formations/?id=3">Wingsuit</a></li>
                   </ul>
                 </li>
-                <li id="equipements"><a href="http://para-vent.franceserv.com/equipements/">Équipements</a></li>
-                <li id="a-propos"><a href="http://para-vent.franceserv.com/a-propos/">À propos</a></li>
-                <li id="contact"><a href="http://para-vent.franceserv.com/nous-contacter/">Contact</a></li>
+                <li id="equipements"><a href="../equipements/">Équipements</a></li>
+                <li id="a-propos"><a href="../a-propos/">À propos</a></li>
+                <li id="contact"><a href="../nous-contacter/">Contact</a></li>
               </ul>
             </div>
           </div>
@@ -64,32 +64,32 @@
       </ol>
       <div class="carousel-inner" role="listbox">
         <div class="item active">
-          <img class="first-slide" src="http://para-vent.franceserv.com/images/parapente-accueil1.jpg" height="2842" width="5500" alt="First slide">
+          <img class="first-slide" src="../images/parapente-accueil1.jpg" height="2842" width="5500" alt="First slide">
           <div class="container">
             <div class="carousel-caption">
               <h1>Toute l'année !</h1>
               <p>Profitez de nos 5 centre de formations réparti dans toute la France pour faire un vol quand vous le souhaitez.</p>
-              <p><a class="btn btn-lg btn-primary" href="http://para-vent.franceserv.com/parachute/" role="button">Réserver un vol</a></p>
+              <p><a class="btn btn-lg btn-primary" href="../formations/" role="button">Réserver un vol</a></p>
             </div>
           </div>
         </div>
         <div class="item">
-          <img class="second-slide" src="http://para-vent.franceserv.com/images/parachute-acceuil2.JPG" alt="Second slide">
+          <img class="second-slide" src="../images/parachute-acceuil2.JPG" alt="Second slide">
           <div class="container">
             <div class="carousel-caption">
               <h1>Une formation personnelle.</h1>
               <p>Nos formateurs vous accompagnent et vous apprennent à vous servir du matériel.</p>
-              <p><a class="btn btn-lg btn-primary" href="http://para-vent.franceserv.com/parachute/" role="button">En savoir plus</a></p>
+              <p><a class="btn btn-lg btn-primary" href="../formations/" role="button">En savoir plus</a></p>
             </div>
           </div>
         </div>
         <div class="item">
-          <img class="third-slide" src="http://para-vent.franceserv.com/images/parachute-acceuil3.jpg" alt="Third slide">
+          <img class="third-slide" src="images/parachute-acceuil3.jpg" alt="Third slide">
           <div class="container">
             <div class="carousel-caption">
               <h1>Un simple saut ?</h1>
               <p>Si vous ne souhaitez pas suivre une formation, vous pouvez aussi profiter de l’option "saut touristique" pour un bol de plein air.</p>
-              <p><a class="btn btn-lg btn-primary" href="http://para-vent.franceserv.com/parachute/" role="button">Réserver maintenant</a></p>
+              <p><a class="btn btn-lg btn-primary" href="../formations/" role="button">Réserver maintenant</a></p>
             </div>
           </div>
         </div>

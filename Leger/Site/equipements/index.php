@@ -17,7 +17,7 @@
             </tr>';
             while ($donnees = mysqli_fetch_array($result, MYSQLI_ASSOC)){
                 echo'<tr>
-                    <td>'.$donnees ['libelle_article'].'<img src="http://para-vent.franceserv.com/images/suit.jpg" height="75" widht="75"/></td>
+                    <td>'.$donnees ['libelle_article'].'<img src="../images/suit.jpg" height="75" widht="75"/></td>
                 </tr>';
             }
         echo'</table>';

@@ -7,22 +7,22 @@
 
       <div class="row">
         <div class="col-lg-4">
-          <img class="img-circle" src="http://para-vent.franceserv.com/images/chute.jpg" alt="Generic placeholder image" width="140" height="140">
+          <img class="img-circle" src="../images/chute.jpg" alt="Generic placeholder image" width="140" height="140">
           <h2>Parachute</h2>
           <p>Vous souhaitez apprendre à faire du parachute, ou juste vous amuser ? Nous proposons des formations ou des simples sauts.</p>
-          <p><a class="btn btn-default" href="http://para-vent.franceserv.com/formations/?id=1" role="button">Plus d'informations &raquo;</a></p>
+          <p><a class="btn btn-default" href="../formations/?id=1" role="button">Plus d'informations &raquo;</a></p>
         </div>
         <div class="col-lg-4">
-          <img class="img-circle" src="http://para-vent.franceserv.com/images/pente.jpg" alt="Generic placeholder image" width="140" height="140">
+          <img class="img-circle" src="../images/pente.jpg" alt="Generic placeholder image" width="140" height="140">
           <h2>Parapente</h2>
           <p> Vous aimez les pentes ? Alors venez faire du parapente !</p>
-          <p><a class="btn btn-default" href="http://para-vent.franceserv.com/formations/?id=2" role="button">Plus d'informations &raquo;</a></p>
+          <p><a class="btn btn-default" href="../formations/?id=2" role="button">Plus d'informations &raquo;</a></p>
         </div>
         <div class="col-lg-4">
-          <img class="img-circle" src="http://para-vent.franceserv.com/images/suit.jpg" alt="Generic placeholder image" width="140" height="140">
+          <img class="img-circle" src="../images/suit.jpg" alt="Generic placeholder image" width="140" height="140">
           <h2>Wingsuit</h2>
           <p>Venez prendre un bain d'air frais avec le Wingsuit. Sensations fortes garanties.</p>
-          <p><a class="btn btn-default" href="http://para-vent.franceserv.com/formations/?id=3" role="button">Plus d'informations &raquo;</a></p>
+          <p><a class="btn btn-default" href="../formations/?id=3" role="button">Plus d'informations &raquo;</a></p>
         </div>
       </div>
 
@@ -34,7 +34,7 @@
           <p class="lead">Avec nos parapentes biplace, vous pourrez voler en compagnie de nos formateurs, toujours enchantés d'aller dans les airs.</p>
         </div>
         <div class="col-md-5">
-          <img class="featurette-image img-responsive center-block" src="http://para-vent.franceserv.com/images/biplace.jpg" alt="Initiation au parapente">
+          <img class="featurette-image img-responsive center-block" src="../images/biplace.jpg" alt="Initiation au parapente">
         </div>
       </div>
 
@@ -46,7 +46,7 @@
           <p class="lead">Avec nos formations encadrées par des professionnels vous pourrez apprendre en groupe ou individuellement pendant toute une semaine.</p>
         </div>
         <div class="col-md-5 col-md-pull-7">
-          <img class="featurette-image img-responsive center-block" src="http://para-vent.franceserv.com/images/groupe.jpg" height="420" width="660" alt="Formation parapente">
+          <img class="featurette-image img-responsive center-block" src="../images/groupe.jpg" height="420" width="660" alt="Formation parapente">
         </div>
       </div>
       <hr class="featurette-divider">
@@ -56,7 +56,7 @@
           <p class="lead">Vous avez le goût du risque et vous voulez aller plus loin ? Pas de problème, nous sommes là pour vous guider vers de nouvelles hauteurs.</p>
         </div>
         <div class="col-md-5">
-          <img class="featurette-image img-responsive center-block" src="http://para-vent.franceserv.com/images/wingsuit.jpg" height="462" width="460" alt="Formation wingsuit">
+          <img class="featurette-image img-responsive center-block" src="../images/wingsuit.jpg" height="462" width="460" alt="Formation wingsuit">
         </div>
       </div>
 

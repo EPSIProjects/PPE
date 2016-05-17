@@ -1,4 +1,6 @@
-<?php $title="Formations"; ?>
+<?php $title="Formations"; 
+$id=1;
+?>
 <?php include '../header.php'; ?>
 
 <ul class="nav nav-tabs section">
@@ -11,21 +13,21 @@
   <div id="parachute" class="tab-pane fade">
     <h3>Parachute</h3>
     <p>Some content.</p>
-    <form action="http://para-vent.franceserv.com/formations/reserver/">
+    <form action="../reserver/">
     <button type="submit" class="btn btn-warning">Réserver</button>
     </form>
   </div>
   <div id="parapente" class="tab-pane fade">
     <h3>Parapente</h3>
     <p>Some content in menu 1.</p>
-    <form action="http://para-vent.franceserv.com/formations/reserver/">
+    <form action="../reserver/">
     <button type="submit" class="btn btn-success">Réserver</button>
     </form>
   </div>
   <div id="wingsuit" class="tab-pane fade">
     <h3>Wingsuit</h3>
     <p>Some content in menu 2.</p>
-    <form action="http://para-vent.franceserv.com/formations/reserver/">
+    <form action="../reserver/">
     <button type="submit" class="btn btn-info">Réserver</button>
     </form>
   </div>

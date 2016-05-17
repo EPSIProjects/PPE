@@ -4,7 +4,7 @@
  <form method="POST" action="../reserver/envoi.php" name="monform">
   <div class="form-group">
 <select>
-  <option value="Parachute">Parachute</option>
+  <option value="Parachute">GPS</option>
   <option value="Parapente">Parapente</option>
   <option value="Winsuit">Winsuit</option>
 </select>

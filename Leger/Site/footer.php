@@ -1,5 +1,6 @@
       <!-- Footer -->
      <br>
+     <br>
       <footer>
         <p>&copy; 2016 Para-vent. &middot; <a href="../mentions-legales/">Mentions légale</a> &middot; <a href="../terms/">Conditions d'utilisation</a></p>
         <br>

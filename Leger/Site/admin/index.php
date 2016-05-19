@@ -1,11 +1,11 @@
-<?php $title="Acceuil"; ?>
+<?php $title="Administration"; ?>
 <?php include '../header.php'; ?>
 
  <form class="form-horizontal formadmin" role="form">
   <div class="form-group">
-    <label class="control-label col-sm-2" for="email">Identifiant :</label>
+    <label class="control-label col-sm-2" for="text">Identifiant :</label>
     <div class="col-sm-5">
-      <input type="email" class="form-control" id="email" placeholder="Entrer votre identifiant">
+      <input type="text" class="form-control" id="text" placeholder="Entrer votre identifiant">
     </div>
   </div>
   <div class="form-group">

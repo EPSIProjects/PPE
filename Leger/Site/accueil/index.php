@@ -1,5 +1,5 @@
 <?PHP $title="Accueil"; ?>
-<?PHP include 'header.php'; ?>
+<?PHP include '../header.php'; ?>
 
       <script type="text/javascript">
             document.getElementById("accueil").className = "active";
@@ -61,4 +61,4 @@
       </div>
 
       <hr class="featurette-divider">
-<?php include 'footer.php'; ?>
+<?php include '../footer.php'; ?>

@@ -26,12 +26,12 @@
                 <span class="icon-bar"></span>
                 <span class="icon-bar"></span>
               </button>
-              <a class="logo navbar-brand" href="http://para-vent.franceserv.com"><img src="../images/logo-parapente.png" height="50" width="53"/></a>
-              <a class="navbar-brand" href="http://para-vent.franceserv.com">Para-Vent</a>
+              <a class="logo navbar-brand" href="../accueil/"><img src="../images/logo-parapente.png" height="50" width="53"/></a>
+              <a class="navbar-brand" href="../accueil/">Para-Vent</a>
             </div>
             <div id="navbar" class="navbar-collapse collapse">
               <ul class="nav navbar-nav">
-                <li id="accueil"><a href="http://para-vent.franceserv.com">Accueil</a></li>
+                <li id="accueil"><a href="../accueil/">Accueil</a></li>
 
                 <li class="dropdown">
                   <a href="#" class="dropdown-toggle" data-toggle="dropdown" role="button" aria-haspopup="true" aria-expanded="false">Formations <span class="caret"></span></a>
@@ -69,27 +69,27 @@
             <div class="carousel-caption">
               <h1>Toute l'année !</h1>
               <p>Profitez de nos 5 centre de formations réparti dans toute la France pour faire un vol quand vous le souhaitez.</p>
-              <p><a class="btn btn-lg btn-primary" href="../formations/" role="button">Réserver un vol</a></p>
+              <p><a class="btn btn-lg btn-primary" href="../formations/?id=1" role="button">Réserver un vol</a></p>
             </div>
           </div>
         </div>
         <div class="item">
-          <img class="second-slide" src="../images/parachute-acceuil2.JPG" alt="Second slide">
+          <img class="second-slide" src="../images/parachute-acceuil2.jpg" alt="Second slide">
           <div class="container">
             <div class="carousel-caption">
               <h1>Une formation personnelle.</h1>
               <p>Nos formateurs vous accompagnent et vous apprennent à vous servir du matériel.</p>
-              <p><a class="btn btn-lg btn-primary" href="../formations/" role="button">En savoir plus</a></p>
+              <p><a class="btn btn-lg btn-primary" href="../formations/?id=1" role="button">En savoir plus</a></p>
             </div>
           </div>
         </div>
         <div class="item">
-          <img class="third-slide" src="images/parachute-acceuil3.jpg" alt="Third slide">
+          <img class="third-slide" src="../images/parachute-acceuil3.jpg" alt="Third slide">
           <div class="container">
             <div class="carousel-caption">
               <h1>Un simple saut ?</h1>
               <p>Si vous ne souhaitez pas suivre une formation, vous pouvez aussi profiter de l’option "saut touristique" pour un bol de plein air.</p>
-              <p><a class="btn btn-lg btn-primary" href="../formations/" role="button">Réserver maintenant</a></p>
+              <p><a class="btn btn-lg btn-primary" href="../formations/?id=1" role="button">Réserver maintenant</a></p>
             </div>
           </div>
         </div>

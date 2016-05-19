@@ -47,7 +47,7 @@ body{
   text-align: center;
 }
 .tab-content>div>form>button{
-  margin-left: 45%;
+  margin-left: 46%;
 }
 .formadmin{
   margin-left: 25%;
@@ -58,4 +58,12 @@ body{
 #aboutPara{
   text-indent: 3em;
   font-size: 1.5em;
+}
+.imgentforma{
+  border-radius:10px 5px;
+  margin: 2%;
+  margin-left: 41%;
+}
+.forma h3{
+  text-align: center;
 }

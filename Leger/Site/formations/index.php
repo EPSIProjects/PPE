@@ -10,22 +10,26 @@ $id=1;
 </ul>
 
 <div class="tab-content">
-  <div id="parachute" class="tab-pane fade">
-    <img class="imgentforma" src="../images/para2.jpg" height="140" width="140">
+  <div id="parachute" class="tab-pane fade forma">
+    <img class="imgentforma" src="../images/para2.jpg" height="200" width="200">
+    <h3>Parachute</h3>
+    <br>
     <form action="../reserver/">
     <button type="submit" class="btn btn-warning">Réserver</button>
     </form>
   </div>
-  <div id="parapente" class="tab-pane fade">
+  <div id="parapente" class="tab-pane fade forma">
+    <img class="imgentforma" src="../images/para1.jpg" height="200" width="200">
     <h3>Parapente</h3>
-    <img class="imgentforma" src="../images/para1.jpg" height="140" width="140">
+    <br>
     <form action="../reserver/">
     <button type="submit" class="btn btn-success">Réserver</button>
     </form>
   </div>
-  <div id="wingsuit" class="tab-pane fade">
+  <div id="wingsuit" class="tab-pane fade forma">
+    <img class="imgentforma" src="../images/wing1.jpg" height="200" width="200">
     <h3>Wingsuit</h3>
-    <img class="imgentforma" src="../images/wing1.jpg" height="140" width="140">
+    <br>
     <form action="../reserver/">
     <button type="submit" class="btn btn-info">Réserver</button>
     </form>
@@ -37,7 +41,7 @@ if ($id==1) {
   echo '
   <script type="text/javascript">
 document.getElementById("parachute1").className = "active";
-document.getElementById("parachute").className = "tab-pane fade active in";
+document.getElementById("parachute").className = "tab-pane fade forma active in";
 
 </script>';
 }
@@ -45,14 +49,14 @@ if ($id==2) {
   echo '
   <script type="text/javascript">
 document.getElementById("parapente1").className = "active";
-document.getElementById("parapente").className = "tab-pane fade active in";
+document.getElementById("parapente").className = "tab-pane fade forma active in";
 </script>';
 }
 if ($id==3) {
   echo '
   <script type="text/javascript">
 document.getElementById("wingsuit1").className = "active";
-document.getElementById("wingsuit").className = "tab-pane fade active in";
+document.getElementById("wingsuit").className = "tab-pane fade forma active in";
 </script>';
 }
 ?>

@@ -55,3 +55,7 @@ body{
 .aboutTitle{
   text-align: center;
 }
+#aboutPara{
+  text-indent: 3em;
+  font-size: 1.5em;
+}

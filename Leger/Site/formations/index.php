@@ -11,22 +11,21 @@ $id=1;
 
 <div class="tab-content">
   <div id="parachute" class="tab-pane fade">
-    <h3>Parachute</h3>
-    <p>Some content.</p>
+    <img class="imgentforma" src="../images/para2.jpg" height="140" width="140">
     <form action="../reserver/">
     <button type="submit" class="btn btn-warning">Réserver</button>
     </form>
   </div>
   <div id="parapente" class="tab-pane fade">
     <h3>Parapente</h3>
-    <p>Some content in menu 1.</p>
+    <img class="imgentforma" src="../images/para1.jpg" height="140" width="140">
     <form action="../reserver/">
     <button type="submit" class="btn btn-success">Réserver</button>
     </form>
   </div>
   <div id="wingsuit" class="tab-pane fade">
     <h3>Wingsuit</h3>
-    <p>Some content in menu 2.</p>
+    <img class="imgentforma" src="../images/wing1.jpg" height="140" width="140">
     <form action="../reserver/">
     <button type="submit" class="btn btn-info">Réserver</button>
     </form>

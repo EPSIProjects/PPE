@@ -1,21 +1,43 @@
-<?php $title="Réserver une formation"; ?>
-<?php include '../header.php'; ?>
+<?php
+$formNom = $_POST['nom'];
+$formMail = $_POST['mail'];
+$formCom = $_POST['message'];
+$formTyp = $_POST['type'];
+$formPer = $_POST['periode'];
+$formTel = $_POST['tel'];
+if(!empty($formMail) && !empty($formNom) && !empty($formCom) && !empty($formTyp) && !empty($formPer) ){
+ $formComm = htmlentities($formCom);
+ 
+ 
+  //mise en forme du mail
+  $message = "$formNom souhaite effectuer une formation de $formTyp durant la période de formation : $formPer.
+ Voici son message : $formCom
+ Son adresse mail est : $formMail
+ Ainsi que son numéro de contact: $formTel";
+ 
+  if( mail('paravent127@gmail.com',"Demande de formation","$message") )
+   
+  {
+ $title="Message envoyé !";
+include '../header.php';
+echo "Votre demande a bien été prise en compte, nos équipes vous contacteront dés que possible.";
 
- <form method="POST" action="" name="monform">
-  <div class="form-group">
-    <label for="nom">Nom et prénom :</label>
-    <input type="text" class="form-control" id="nom" name="nom">
-  </div>
-  <div class="form-group">
-    <label for="email">Courriel :</label>
-    <input type="email" class="form-control" id="email" name="mail">
-  </div>
-  <div class="form-group">
-    <label for="msg">Message :</label>
-    <textarea class="form-control" id="msg" name="message"></textarea>
-  </div>
-<br><div id="bouttons">
-  <button type="submit" class="btn btn-default">Envoyer</button>&nbsp;<button type="reset" class="btn btn-default">Effacer</button>
-  </div>
-</form>
-<?php include '../footer.php'; ?>
+include '../footer.php';
+  }
+  else{
+ $title="Erreur";
+include '../header.php';
+echo "Une erreur s'est produite, veuillez réessayer";
+
+include '../footer.php';
+  }
+}
+  else{
+ $title="Erreur";
+include '../header.php';
+echo "Une erreur s'est produite, veuillez réessayer";
+
+include '../footer.php';
+}
+
+?>

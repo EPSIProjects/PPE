@@ -67,7 +67,12 @@ body{
 .forma h3{
   text-align: center;
 }
-#reservform{
+.reservform{
+  width: 50%;
+  text-align: center;
+  margin-left: 25%;
+}
+.reservform img{
   width: 50%;
   text-align: center;
   margin-left: 25%;

@@ -22,6 +22,11 @@ $id=1;
     <img class="imgentforma" src="../images/para1.jpg" height="200" width="200">
     <h3>Parapente</h3>
     <br>
+    <span class="reservform">
+    Voici les tarifs d'une formation :
+    <br>
+    <img src="../images/tarifs.png">
+    </span>
     <form action="../reserver/">
     <button type="submit" class="btn btn-success">Réserver</button>
     </form>

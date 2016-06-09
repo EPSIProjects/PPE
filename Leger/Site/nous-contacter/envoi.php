@@ -9,39 +9,32 @@ $formCom = $_POST['message'];
 //En règle général on traite les variables avec les fonctions htmlentities, mysql_escape_string(),addslash() ...
 // Dans l'exemple on va juste vérifier que le nom, le prenom et le mail soit pas vide.
 if(!empty($formMail) && !empty($formNom) && !empty($formCom) ){
-  //ok pas vide //on convertie les caractètres HTML du commentaire
- $formComm = htmlentities($formCom);
- 
- 
-  //mise en forme du mail
-  $message = "$formNom vous a envoyé le message : $formCom.
- Son adresse mail est : $formMail";
- 
-  if( mail('paravent127@gmail.com',"Demande de contacte","$message") )
-   
-  {
+	//ok pas vide //on convertie les caractètres HTML du commentaire
+	$formComm = htmlentities($formCom);
+	//mise en forme du mail
+	$message = "$formNom vous a envoyé le message : $formCom.
+	Son adresse mail est : $formMail";
+	 
+	if( mail('paravent127@gmail.com',"Demande de contact","$message") )
+	{
 
- $title="Message envoyé !";
-include '../header.php';
-echo "Votre message a bien été envoyé, nos équipes vous contacteront dés que possible.";
-
-include '../footer.php';
-  }
-  else{
- $title="Erreur";
-include '../header.php';
-echo "Une erreur s'est produite, veuillez réessayer";
-
-include '../footer.php';
-  }
+		$title="Message envoyé !";
+		include '../header.php';
+		echo "Votre message a bien été envoyé, nos équipes vous contacteront dés que possible.";
+		include '../footer.php';
+	}
+	else{
+		$title="Erreur";
+		include '../header.php';
+		echo "Une erreur s'est produite, veuillez réessayer";
+		include '../footer.php';
+	}
 }
-  else{
- $title="Erreur";
-include '../header.php';
-echo "Une erreur s'est produite, veuillez réessayer";
-
-include '../footer.php';
+else{
+	$title="Erreur";
+	include '../header.php';
+	echo "Une erreur s'est produite, veuillez réessayer";
+	include '../footer.php';
 }
-
 
 ?>

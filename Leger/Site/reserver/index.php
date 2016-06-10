@@ -2,7 +2,7 @@
 <?php include '../header.php'; ?>
 <?php include '../connexion.php'; ?>
 
- <form id="reservform" method="POST" action="../reserver/envoie.php" name="monform">
+ <form class="reservform" method="POST" action="../reserver/envoie.php" name="monform">
   <div class="form-group">
     <label for="select">Type de formation souhaitée : </label>
 <select name="type">

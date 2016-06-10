@@ -1,6 +1,6 @@
 Ubuntu Server:
-	id:paravent
-	mdp:paravent1234
+	id: paravent
+	mdp: paravent1234
 
 MySQL:
 	mdp superuser MySQL:paravent1234

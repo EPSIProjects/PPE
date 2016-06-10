@@ -69,7 +69,6 @@ body{
 }
 .reservform{
   width: 50%;
-  text-align: center;
   margin-left: 25%;
 }
 .reservform img{
@@ -79,4 +78,27 @@ body{
 }
 #msg{
   max-width: 100%;
+}
+.reservform h4{
+  width: 50%;
+  text-align: center;
+  margin-left: 25%;
+}
+.TabCel thead {
+  text-align: center;
+}
+tbody tr td {
+  padding: 0.5%;
+  padding-left: 1%;
+  padding-right: 1%;
+}
+.LibForm {
+  width: 100%;
+}
+.Col1 {
+  width: 31%;
+}
+.Col2 {
+  width: 11%;
+  text-align: center;
 }

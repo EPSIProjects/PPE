@@ -5,7 +5,7 @@ htmlentities('azéoràèndjùd', ENT_COMPAT, 'UTF-8');
 
 include("../header.php");
 
-$bdd = mysqli_connect("sql.franceserv.fr","paravent","paravent1234","darkmath_db2");
+    include '../connexion.php'; 
 	$username = mysqli_real_escape_string($bdd, $_POST['user']);
 	$password = mysqli_real_escape_string($bdd, $_POST['password']);
 

@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Client :  127.0.0.1
--- Généré le :  Mer 23 Mars 2016 à 10:11
+-- Généré le :  Sam 11 Juin 2016 à 22:06
 -- Version du serveur :  5.6.17
 -- Version de PHP :  5.5.12
 
@@ -73,6 +73,7 @@ CREATE TABLE IF NOT EXISTS `article` (
   `libelle_article` varchar(160) NOT NULL,
   `stock_article` int(100) NOT NULL,
   `id_fournisseur_article` int(11) NOT NULL,
+  `prix_article` decimal(10,0) NOT NULL,
   PRIMARY KEY (`id_article`),
   KEY `fk_article_fournisseur` (`id_fournisseur_article`)
 ) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=24 ;
@@ -81,30 +82,30 @@ CREATE TABLE IF NOT EXISTS `article` (
 -- Contenu de la table `article`
 --
 
-INSERT INTO `article` (`id_article`, `libelle_article`, `stock_article`, `id_fournisseur_article`) VALUES
-(1, 'Parachute', 5, 1),
-(2, 'Voile', 5, 1),
-(3, 'Casquette', 5, 2),
-(4, 'Lunette', 5, 2),
-(5, 'Casque', 5, 1),
-(6, 'Visière', 5, 2),
-(7, 'Emetteurs recepteurs', 5, 2),
-(8, 'Antenne', 5, 1),
-(9, 'Cockpit', 5, 1),
-(10, 'Cameras', 5, 2),
-(11, 'Ventimètre', 5, 2),
-(12, 'Compas', 5, 1),
-(13, 'GPS', 5, 1),
-(14, 'Sacs classique', 5, 1),
-(15, 'Sacs montagne', 5, 1),
-(16, 'Sellettes', 5, 2),
-(17, 'Blousons', 5, 1),
-(18, 'Pantalons', 5, 1),
-(19, 'Sweats', 5, 2),
-(20, 'Cagoules', 5, 2),
-(21, 'Combinaisons', 5, 2),
-(22, 'Gants', 5, 2),
-(23, 'T-Shirt', 5, 1);
+INSERT INTO `article` (`id_article`, `libelle_article`, `stock_article`, `id_fournisseur_article`, `prix_article`) VALUES
+(1, 'Parachute', 5, 1, '199'),
+(2, 'Voile', 5, 1, '99'),
+(3, 'Casquette', 5, 2, '14'),
+(4, 'Lunette', 5, 2, '59'),
+(5, 'Casque', 5, 1, '60'),
+(6, 'Visière', 5, 2, '35'),
+(7, 'Emetteurs recepteurs', 5, 2, '75'),
+(8, 'Antenne', 5, 1, '44'),
+(9, 'Cockpit', 5, 1, '50'),
+(10, 'Cameras', 5, 2, '89'),
+(11, 'Ventimètre', 5, 2, '45'),
+(12, 'Compas', 5, 1, '7'),
+(13, 'GPS', 5, 1, '55'),
+(14, 'Sacs classique', 5, 1, '1'),
+(15, 'Sacs montagne', 5, 1, '35'),
+(16, 'Sellettes', 5, 2, '41'),
+(17, 'Blousons', 5, 1, '39'),
+(18, 'Pantalons', 5, 1, '24'),
+(19, 'Sweats', 5, 2, '30'),
+(20, 'Cagoules', 5, 2, '19'),
+(21, 'Combinaisons', 5, 2, '84'),
+(22, 'Gants', 5, 2, '17'),
+(23, 'T-Shirt', 5, 1, '15');
 
 -- --------------------------------------------------------
 
@@ -191,14 +192,17 @@ CREATE TABLE IF NOT EXISTS `client` (
   `code_postal_client` int(6) NOT NULL,
   `ville_client` varchar(100) NOT NULL,
   PRIMARY KEY (`id_client`)
-) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=2 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=5 ;
 
 --
 -- Contenu de la table `client`
 --
 
 INSERT INTO `client` (`id_client`, `nom_client`, `prenom_client`, `adresse_ligne1_client`, `mail_client`, `adresse_ligne2_client`, `code_postal_client`, `ville_client`) VALUES
-(1, 'Geron', 'Alexis', '15 rue Craquons', 'alex.geron@gmail.com', NULL, 33200, 'Cenon');
+(1, 'Geron', 'Alexis', '15 rue Craquons', 'alex.geron@gmail.com', NULL, 33200, 'Cenon'),
+(2, 'Grimlis', 'Christina', '15 rue de la tourbie', 'christina.trb@orange.fr', NULL, 16520, 'La Jarie'),
+(3, 'Paul', 'Doumer', '33 rue du pigeonnnier', 'paul.dou@live.fr', 'résidence alfred P.', 33850, 'Bordeaux'),
+(4, 'Lassaiding', 'Ridsa', '99 cour du medoc', 'hanoun@d8.fr', NULL, 45960, 'Ramsay');
 
 -- --------------------------------------------------------
 
@@ -251,7 +255,8 @@ CREATE TABLE IF NOT EXISTS `formateur` (
 
 INSERT INTO `formateur` (`type_formateur`, `id_formateur`) VALUES
 ('Formateur Minier Bordeaux', 13),
-('Formateur Brasson Bordeaux', 14);
+('Formateur Brasson Bordeaux', 14),
+('Formateur Ramus Bordeaux', 20);
 
 -- --------------------------------------------------------
 
@@ -279,15 +284,15 @@ CREATE TABLE IF NOT EXISTS `formation` (
 INSERT INTO `formation` (`id_formation`, `libelle_formation`, `code_formation`, `id_client_formation`, `id_personnel_formation`, `date_debut_formation`, `date_fin_formation`) VALUES
 (1, 'Formation Parapente Amateur Decembre 2015', 'FOPAD15', 1, 14, '2015-12-13', '2015-12-18'),
 (2, 'Formation Parapente Amateur Mai 2016', 'FOPAM16', 1, 14, '2016-05-02', '2016-05-06'),
-(3, 'Stage Decouverte Debutant S18 Mai 2016', 'SDD18M16', 1, 13, '2016-05-02', '2016-05-06'),
+(3, 'Stage Decouverte Debutant S18 Mai 2016', 'SDD18M16', 2, 20, '2016-05-02', '2016-05-06'),
 (4, 'Stage Decouverte Debutant S19 Mai 2016', 'SDD19M16', 1, 14, '2016-05-09', '2016-05-13'),
-(5, 'Stage Decouverte Debutant S20 Mai 2016', 'SDD20M16', 1, 13, '2016-05-16', '2016-05-20'),
+(5, 'Stage Decouverte Debutant S20 Mai 2016', 'SDD20M16', 3, 20, '2016-05-16', '2016-05-20'),
 (6, 'Stage Decouverte Debutant S21 Mai 2016', 'SDD21M16', 1, 14, '2016-05-23', '2016-05-27'),
 (7, 'Stage Decouverte Debutant S22 Juin 2016', 'SDD22J16', 1, 13, '2016-05-30', '2016-06-03'),
-(8, 'Stage Decouverte Debutant S23 Juin 2016', 'SDD23J16', 1, 14, '2016-06-06', '2016-06-10'),
-(9, 'Stage Decouverte Debutant S24 Juin 2016', 'SDD24J16', 1, 13, '2016-06-13', '2016-06-17'),
+(8, 'Stage Decouverte Debutant S23 Juin 2016', 'SDD23J16', 4, 20, '2016-06-06', '2016-06-10'),
+(9, 'Stage Decouverte Debutant S24 Juin 2016', 'SDD24J16', 3, 13, '2016-06-13', '2016-06-17'),
 (10, 'Stage Decouverte Debutant S25 Juin 2016', 'SDD25J16', 1, 14, '2016-06-20', '2016-06-24'),
-(11, 'Stage Decouverte Debutant S26 Juin 2016', 'SDD26J16', 1, 13, '2016-06-27', '2016-07-01'),
+(11, 'Stage Decouverte Debutant S26 Juin 2016', 'SDD26J16', 4, 20, '2016-06-27', '2016-07-01'),
 (12, 'Formation Parapente Amateur Juin 2016', 'FOPAJ16', 1, 13, '2016-06-06', '2016-06-10');
 
 -- --------------------------------------------------------
@@ -386,7 +391,7 @@ CREATE TABLE IF NOT EXISTS `personnel` (
   `etat` int(1) DEFAULT '0',
   PRIMARY KEY (`id_personnel`),
   UNIQUE KEY `id_personnel` (`id_personnel`)
-) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=20 ;
+) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=21 ;
 
 --
 -- Contenu de la table `personnel`
@@ -409,9 +414,10 @@ INSERT INTO `personnel` (`id_personnel`, `nom_personnel`, `prenom_personnel`, `f
 (14, 'GRANDU', 'Sophie', 'F', '105062456', '58 impasse de l impossteur', 765235, 'BORDEAUX', 'digicode : 5265', 30000, 'CAVIGNAC', 'sophie', 'sophief', 0),
 (15, 'BRASSON', 'Raimonde', 'RSC', '536254859', '54 rue bourbon', 4582645, 'BORDEAUX', NULL, 35200, 'BORDEAUX', 'raimonde', 'raimondersc', 0),
 (16, 'BRISSARD', 'Morgane', 'SC', '625854596', '45 rue brisson', 59974313, 'BORDEAUX', NULL, 33000, 'BORDEAUX', 'morgane', 'morganesc', 0),
-(17, 'LAGRANDE', 'Laurent', 'C', '564528426', '108 B cours du marne', 18631, 'BORDEAUX', NULL, 35320, 'BORDEAUX', 'rdsla', 'lausdf', 0),
+(17, 'LAGRANDE', 'Laurent', 'C', '564528426', '108 B cours du marne', 18631, 'BORDEAUX', NULL, 35320, 'BORDEAUX', 'd1t5f7g4', 'accesjury', 0),
 (18, 'PEREZ', 'Sophie', 'C', '486435427', '207 rue de l''amour', 388462, 'BORDEAUX', NULL, 32000, 'BORDEAUX', '46982', 'sosodd', 0),
-(19, 'BERNARD', 'Pascal', 'C', '0506085648', '208 rue Lucien Faure', 876524351, 'CLERMONT-FERRAND', 'Residence des Vins', 96520, 'CLERMONT', 'nanard', 'bebe', 0);
+(19, 'BERNARD', 'Pascal', 'C', '0506085648', '208 rue Lucien Faure', 876524351, 'CLERMONT-FERRAND', 'Residence des Vins', 96520, 'CLERMONT', 'nanard', 'bebe', 0),
+(20, 'RAMUS', 'Leon', 'F', '0765254585', '123 rue edouard Dumont', 6454532, 'BORDEAUX', NULL, 45250, 'Blacart', 'adwaq4', 'mdp4g5', 0);
 
 --
 -- Contraintes pour les tables exportées

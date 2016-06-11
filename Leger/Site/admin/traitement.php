@@ -20,7 +20,8 @@ if ($count == 1) {
 	$sql_query2 = "SELECT * FROM formation";
 	$result2 = mysqli_query($bdd, $sql_query2);
 
-	echo ('<div class="row">
+	echo ('<form method="post" action="modifforma.php">
+		<div class="row">
 		<div class="table-responsive col-md-12">
 			<table class="table-bordered TabCel col-md-12">
 				<thead>
@@ -37,7 +38,7 @@ if ($count == 1) {
 
 		echo('<tbody>
 					<tr>
-						<td class="Col1"> <input class="form-control LibForm" type="text" name="Libelle-formation" value="'.$data['libelle_formation'].'"></td>
+						<td class="Col1"> <input class="form-control LibForm" type="text" name="lbforma" value="'.$data['libelle_formation'].'"></td>
 						<td class="Col2"> <input class="form-control" type="text" name="Code-formation" value="'.$data['code_formation'].'"</td>
 						<td class="Col3"> <select id="mySelect'.$i.'">');
 						$sql_query_formateur = "SELECT id_personnel, nom_personnel FROM personnel WHERE fonction_personnel = 'F'";
@@ -59,6 +60,9 @@ if ($count == 1) {
 		
 			</div>
 		    </div>
+		    <br>
+			<input type="submit" value="Envoyer" class="btn btn-default btn-block">
+		    </form>
 
 
 

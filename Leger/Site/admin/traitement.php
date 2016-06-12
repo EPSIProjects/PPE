@@ -26,11 +26,11 @@ if ($count == 1) {
 			<table class="table-bordered TabCel col-md-12">
 				<thead>
 					<tr>
-						<td><h4>Libellé formation</h4></td>
+						<td class="Marg"><h4>Libellé formation</h4></td>
 						<td class="Marg"><h4>Code formation</h4></td>
-						<td><h4>Nom formateur</h4></td>
-						<td><h4>Date de début</h4></td>
-						<td><h4>Date de fin</h4></td>
+						<td class="Marg"><h4>Nom formateur</h4></td>
+						<td class="Marg"><h4>Date de début</h4></td>
+						<td class="Marg"><h4>Date de fin</h4></td>
 					</tr>
 				</thead>');
 	$i=0;
@@ -38,9 +38,9 @@ if ($count == 1) {
 
 		echo('<tbody>
 					<tr>
-						<td class="Col1"> <input class="form-control LibForm" type="text" name="lbforma" value="'.$data['libelle_formation'].'"></td>
-						<td class="Col2"> <input class="form-control" type="text" name="Code-formation" value="'.$data['code_formation'].'"</td>
-						<td class="Col3"> <select id="mySelect'.$i.'">');
+						<td class="Col1 Marg"> <input class="form-control LibForm" type="text" name="lbforma" value="'.$data['libelle_formation'].'"></td>
+						<td class="Col2 Marg"> <input class="form-control" type="text" name="Code-formation" value="'.$data['code_formation'].'"</td>
+						<td class="Col3 Marg"> <select id="mySelect'.$i.'">');
 						$sql_query_formateur = "SELECT id_personnel, nom_personnel FROM personnel WHERE fonction_personnel = 'F'";
 						$result3 = mysqli_query($bdd, $sql_query_formateur);
 						while ($formateur = mysqli_fetch_assoc($result3)) {
@@ -50,8 +50,8 @@ if ($count == 1) {
 							<script>
     							document.getElementById("mySelect'.$i.'").value = "'.$data['id_personnel_formation'].'";
 							</script>
-						<td class="Col4"> '.$data['date_debut_formation'].' </td>
-						<td class="Col5"> '.$data['date_fin_formation'].' </td>
+						<td class="Col4 Marg"> '.$data['date_debut_formation'].' </td>
+						<td class="Col5 Marg"> '.$data['date_fin_formation'].' </td>
 					</tr>
 				</tbody>');
 						$i++;

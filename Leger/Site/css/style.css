@@ -102,3 +102,11 @@ tbody tr td {
   width: 11%;
   text-align: center;
 }
+
+.tabprod {
+  margin: auto;
+  text-align: center;
+  border: solid black 1px;
+  table-layout: fixed;
+  width: 100%;
+}

@@ -6,6 +6,8 @@
       </script>
 
     <h1>Equipements</h1>
+
+    <!-- tableau -->
 <?php
         $query = 'select * from article order by libelle_article asc';
         $result = mysqli_query($bdd, $query);
@@ -33,31 +35,35 @@
 
         echo'</tr></table>';
 ?>
-    <br>
-    <h2>Réserver un équipement</h2>
+    <!-- fin tableau -->
+
+        <br>
+        <h2>Réserver un équipement</h2>
+        <br>
+        <!-- combobox -->
     <?php
-        echo '<form method="post" action="reservation.php">
+        echo '<form class="reservform" method="post" action="reservation.php">
                 <select name="combobox">';
             foreach ($tableau as $tab){
                 echo '<option>'.$tab['libelle_article'].'</option>';
             }
             echo'</select>';
     ?>
+    <!-- fin combobox -->
 
     <br>
 
-    <label for="nom">Nom et prénom :</label>
+    <br><label for="nom">Nom et prénom :</label>
         <input type="text" class="form-control" id="nom" name="nom">
 
-    <label for="email">Email :</label>
+    <br><label for="email">Email :</label>
         <input type="email" class="form-control" id="email" name="mail">
 
-    <label for="telephone">Téléphone :</label>
+    <br><label for="telephone">Téléphone :</label>
         <input type="tel" class="form-control" id="tel" name="tel">
 
     <br><br>
-
-        <button type="submit" class="btn btn-info">Réserver</button>
+        <button id="btnton" type="submit" class="btn btn-info">Réserver</button>
     </form>
 
 <?php include '../footer.php'; ?>

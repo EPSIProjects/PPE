@@ -3,7 +3,7 @@
 -- http://www.phpmyadmin.net
 --
 -- Client :  127.0.0.1
--- Généré le :  Sam 11 Juin 2016 à 22:06
+-- Généré le :  Dim 12 Juin 2016 à 17:05
 -- Version du serveur :  5.6.17
 -- Version de PHP :  5.5.12
 
@@ -73,7 +73,7 @@ CREATE TABLE IF NOT EXISTS `article` (
   `libelle_article` varchar(160) NOT NULL,
   `stock_article` int(100) NOT NULL,
   `id_fournisseur_article` int(11) NOT NULL,
-  `prix_article` decimal(10,0) NOT NULL,
+  `prix_article` decimal(10,0) DEFAULT NULL,
   PRIMARY KEY (`id_article`),
   KEY `fk_article_fournisseur` (`id_fournisseur_article`)
 ) ENGINE=InnoDB  DEFAULT CHARSET=latin1 AUTO_INCREMENT=24 ;
@@ -417,7 +417,7 @@ INSERT INTO `personnel` (`id_personnel`, `nom_personnel`, `prenom_personnel`, `f
 (17, 'LAGRANDE', 'Laurent', 'C', '564528426', '108 B cours du marne', 18631, 'BORDEAUX', NULL, 35320, 'BORDEAUX', 'd1t5f7g4', 'accesjury', 0),
 (18, 'PEREZ', 'Sophie', 'C', '486435427', '207 rue de l''amour', 388462, 'BORDEAUX', NULL, 32000, 'BORDEAUX', '46982', 'sosodd', 0),
 (19, 'BERNARD', 'Pascal', 'C', '0506085648', '208 rue Lucien Faure', 876524351, 'CLERMONT-FERRAND', 'Residence des Vins', 96520, 'CLERMONT', 'nanard', 'bebe', 0),
-(20, 'RAMUS', 'Leon', 'F', '0765254585', '123 rue edouard Dumont', 6454532, 'BORDEAUX', NULL, 45250, 'Blacart', 'adwaq4', 'mdp4g5', 0);
+(20, 'RAMUS', 'Leon', 'F', '0765254585', '123 rue edouard Dumont', 6454532, 'BORDEAUX', 'Adresse ligne 2', 45250, 'BLACART', 'adwaq4', 'mdp4g5', 0);
 
 --
 -- Contraintes pour les tables exportées

@@ -18,7 +18,7 @@
     <textarea class="form-control" id="msg" name="message"></textarea>
   </div>
 <br><div id="bouttons">
-  <button type="submit" class="btn btn-default">Envoyer</button>&nbsp;<button type="reset" class="btn btn-default">Effacer</button>
+  <button type="submit" class="btn btn-default buttoncenter">Envoyer</button>&nbsp;<button type="reset" class="btn btn-default">Effacer</button>
   </div>
 </form>
 

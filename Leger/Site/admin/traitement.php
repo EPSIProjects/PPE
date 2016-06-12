@@ -70,7 +70,7 @@ if ($count == 1) {
 	$sql_query4 = "SELECT * FROM article";
 	$result4 = mysqli_query($bdd, $sql_query4);
 
-	echo ('<form method="post" action="modifforma.php">
+	echo ('<form method="post" action="modifArticle.php">
 			<div class="row">
 			<div class="table-responsive col-md-12">
 				<table class="table-bordered TabCel col-md-12">
@@ -91,8 +91,8 @@ if ($count == 1) {
 						<td class="Col2 Marg"> <input class="form-control" type="text" name="stkArticle" value="'.$data['stock_article'].'"</td>
 						<td class="Col3 Marg"> <select id="mySelect'.$i.'">');
 						$sql_query_fournisseur = "SELECT id_fournisseur, nom_fournisseur FROM fournisseur";
-						$result3 = mysqli_query($bdd, $sql_query_fournisseur);
-						while ($fournisseur = mysqli_fetch_assoc($result3)) {
+						$result5 = mysqli_query($bdd, $sql_query_fournisseur);
+						while ($fournisseur = mysqli_fetch_assoc($result5)) {
 							echo ('<option value="'.$fournisseur['id_fournisseur'].'">'.$fournisseur['nom_fournisseur'].'</option>');
 						}
 						echo ('</select> </td>

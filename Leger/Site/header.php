@@ -4,7 +4,7 @@
     <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <meta name="description" content="Site vitrine appartenant à Para-vent, dans le but de présenter ces produits et services.">
+    <meta name="description" content="Site appartenant à Para-vent, dans le but de présenter ces produits et services.">
     <link rel="icon" href="../images/logo-parapente.ico">
 
     <title><?PHP echo $title; ?> - Paravent</title>

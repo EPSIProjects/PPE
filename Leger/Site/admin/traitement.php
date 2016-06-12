@@ -21,18 +21,18 @@ if ($count == 1) {
 	$result2 = mysqli_query($bdd, $sql_query2);
 
 	echo ('<form method="post" action="modifforma.php">
-		<div class="row">
-		<div class="table-responsive col-md-12">
-			<table class="table-bordered TabCel col-md-12">
-				<thead>
-					<tr>
-						<td class="Marg"><h4>Libellé formation</h4></td>
-						<td class="Marg"><h4>Code formation</h4></td>
-						<td class="Marg"><h4>Nom formateur</h4></td>
-						<td class="Marg"><h4>Date de début</h4></td>
-						<td class="Marg"><h4>Date de fin</h4></td>
-					</tr>
-				</thead>');
+			<div class="row">
+			<div class="table-responsive col-md-12">
+				<table class="table-bordered TabCel col-md-12">
+					<thead>
+						<tr>
+							<td class="Marg"><h4>Libellé formation</h4></td>
+							<td class="Marg"><h4>Code formation</h4></td>
+							<td class="Marg"><h4>Nom formateur</h4></td>
+							<td class="Marg"><h4>Date de début</h4></td>
+							<td class="Marg"><h4>Date de fin</h4></td>
+						</tr>
+					</thead>');
 	$i=0;
 	while ($data = mysqli_fetch_assoc($result2)) {
 
@@ -61,25 +61,56 @@ if ($count == 1) {
 			</div>
 		    </div>
 		    <br>
-			<input type="submit" value="Envoyer" class="btn btn-default btn-block">
-		    </form>
+			<input type="submit" value="Envoyer" class="btn btn-success">
+		    </form>');
+	echo('<br>
+		<br>
+		<br>');
 
+	$sql_query4 = "SELECT * FROM article";
+	$result4 = mysqli_query($bdd, $sql_query4);
 
+	echo ('<form method="post" action="modifforma.php">
+			<div class="row">
+			<div class="table-responsive col-md-12">
+				<table class="table-bordered TabCel col-md-12">
+					<thead>
+						<tr>
+							<td class="Marg"><h4>Libellé article</h4></td>
+							<td class="Marg"><h4>Stock article</h4></td>
+							<td class="Marg"><h4>Nom fournisseur</h4></td>
+							<td class="Marg"><h4>Prix</h4></td>
+						</tr>
+					</thead>');
+	$i=0;
+	while ($data = mysqli_fetch_assoc($result4)) {
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-		');
+		echo('<tbody>
+					<tr>
+						<td class="Col1 Marg"> <input class="form-control LibArticle" type="text" name="lbArticle" value="'.$data['libelle_article'].'"></td>
+						<td class="Col2 Marg"> <input class="form-control" type="text" name="stkArticle" value="'.$data['stock_article'].'"</td>
+						<td class="Col3 Marg"> <select id="mySelect'.$i.'">');
+						$sql_query_fournisseur = "SELECT id_fournisseur, nom_fournisseur FROM fournisseur";
+						$result3 = mysqli_query($bdd, $sql_query_fournisseur);
+						while ($fournisseur = mysqli_fetch_assoc($result3)) {
+							echo ('<option value="'.$fournisseur['id_fournisseur'].'">'.$fournisseur['nom_fournisseur'].'</option>');
+						}
+						echo ('</select> </td>
+							<script>
+    							document.getElementById("mySelect2'.$i.'").value = "'.$data['id_fournisseur_article'].'";
+							</script>
+						<td class="Col4 Marg"> <input class="form-control" type="text" name = "pxArticle" value="'.$data['prix_article'].'"</td>
+					</tr>
+				</tbody>');
+						$i++;
+	}
+	echo ('	</table>
+		
+			</div>
+		    </div>
+		    <br>
+			<input type="submit" value="Valider" class="btn btn-success">
+		    </form>');
 }
 else {
 	echo "Erreur de connexion";

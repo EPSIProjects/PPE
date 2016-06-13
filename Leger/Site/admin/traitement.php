@@ -38,9 +38,9 @@ if ($count == 1) {
 
 		echo('<tbody>
 					<tr>
-						<td class="Col1 Marg"> <input class="form-control LibForm" type="text" name="lbforma" value="'.$data['libelle_formation'].'"></td>
-						<td class="Col2 Marg"> <input class="form-control" type="text" name="Code-formation" value="'.$data['code_formation'].'"</td>
-						<td class="Col3 Marg"> <select id="mySelect'.$i.'">');
+						<td class="Col1 Marg"> <input class="form-control LibForm" type="text" name="lbforma'.$i.'" value="'.$data['libelle_formation'].'"></td>
+						<td class="Col2 Marg"> <input class="form-control" type="text" name="cdeforma'.$i.'" value="'.$data['code_formation'].'"</td>
+						<td class="Col3 Marg"> <select id="mySelect'.$i.'" name ="nomforma'.$i.'">');
 						$sql_query_formateur = "SELECT id_personnel, nom_personnel FROM personnel WHERE fonction_personnel = 'F'";
 						$result3 = mysqli_query($bdd, $sql_query_formateur);
 						while ($formateur = mysqli_fetch_assoc($result3)) {

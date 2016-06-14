@@ -1,3 +1,6 @@
+<?php $title="Réservation"; ?>
+<?php include '../header.php'; ?>
+
 <?php
     $formNom = $_POST['nom'];
     $formMail = $_POST['mail'];
@@ -28,3 +31,7 @@
     mail('paravent127@gmail.com', $sujet, $message);
     //==========
 ?>
+
+    <p style="text-align: center;">L'email a bien été envoyé, Para-Vent vous contactera pour plus d'informations</p>
+
+<?php include '../footer.php'; ?>

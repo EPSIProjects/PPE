@@ -1,4 +1,4 @@
-<?php $title="Acceuil"; ?>
+<?php $title="Accueil"; ?>
 <?php include '../header.php'; ?>
 
 
